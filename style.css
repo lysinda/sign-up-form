@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Fauna One", serif;
+    font-weight: bold;
+    background-color: #313531;
+}
+
+h1 {
+    font-family: Asul, sans-serif;
+    font-size: 3.8rem;
+    padding-bottom: 2vh;
+}
+
+.sign-up-section {
+    display: flex;
+}
+
+.left-img-container {
+    height: 80vh;
+}
+
+.logo-container {
+    height: 25vh;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.400);
+    position: absolute;
+    left: 0px;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.logo-container>span {
+    font-size: 11vh;
+    line-height: 8vh;
+    width: 20vw;
+    font-family: Spirax, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+#background-img {
+    width: 40vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+#logo-img {
+    filter: invert(100%);
+    height: 24vh;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2vw;
+    height: 80vh;
+    width: 70vw;
+    overflow: scroll;
+    color: #A8D4AD;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d221e;
+    border-radius: 10%;
+    width: 40rem;
+    padding: 2vh 0 5vh 4rem;
+    margin-bottom: min(3rem, 3vh);
+    box-shadow: 5px 5px 5px black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem 3rem;
+}
+
+label {
+    font-size: 1rem;
+}
+
+input {
+    font-family: Asul, serif;
+    font-size: 1rem;
+    color: #445D48;
+    width: 16rem;
+    padding: 4px;
+    border: 3px solid;
+    border-radius: 8px;
+    background-color: #F1EDEE;
+}
+
+input:user-valid {
+    border: 3px solid #A8D4AD;
+}
+
+input:user-invalid {
+    border: 3px solid #DB5461;
+}
+
+input.error {
+    border: 3px solid #DB5461;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+button {
+    color: #F1EDEE;
+    font-family: "Fauna One";
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.confirmation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 36rem;
+}
+
+.confirmation-text {
+    font-style: italic;
+}
+
+.sign-up-btn {
+    align-self: flex-start;
+    background-color: #445D48;
+    font-size: 1rem;
+    border: 2px solid #F1EDEE;
+    border-radius: 8px;
+    padding: 12px 40px;
+}
+
+.sign-up-btn:hover {
+    color: #445D48;
+    background-color: #F1EDEE;
+}
+
+.log-in-btn {
+    background-color: transparent;
+    color: #A8D4AD;
+    border: none;
+    font-size: 1.25rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d221e;
+    height: 20vh;
+    color: #A8D4AD;
+}
+
+#leaf {
+    width: min(13vw, 100%);
+    height: min(70vh, 100%);
+    position: absolute;
+    right: 2vw;
+    top: 3vh;
+    z-index: -1;
+}
